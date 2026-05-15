@@ -79,7 +79,7 @@ function App() {
         <h2>About Me</h2>
 
         <p>
-          Mahasiswa semester 2 Program Studi Ilmu Komputer
+          Mahasiswa Program Studi Ilmu Komputer
           di Institut Teknologi Habibie (ITH) yang sedang
           mempelajari pengembangan website modern menggunakan
           HTML, CSS, JavaScript, dan React.Saya memiliki minat pada bidang web development
