@@ -106,20 +106,21 @@ img {
 }
 
 .profile {
-  width: 226px;
-  height: 226px;
+  width: 340px;
+  height: 340px;
 
   object-fit: cover;
-  object-position: center 25%;
+  object-position: center 20%;
 
   border-radius: 50%;
 
-  border: 5px solid #38bdf8;
+  border: 6px solid #38bdf8;
 
-  box-shadow: 0 0 25px rgba(56, 189, 248, 0.5);
+  box-shadow: 0 0 35px rgba(56, 189, 248, 0.7);
 
   display: block;
-  margin: 0 auto;
+
+  margin: 30px auto 0;
 }
 
 /* =========================
@@ -127,7 +128,7 @@ img {
 ========================= */
 
 .section {
-  padding: 60px 10%;
+  padding: 120px 10% 80px;
 }
 
 .section h2 {
@@ -163,7 +164,7 @@ img {
 
   margin-top: 30px;
 
-  align-items: start;
+  align-items: stretch;
 }
 
 .edu-card {
@@ -182,8 +183,11 @@ img {
   min-height: 180px;
 
   transition: 0.3s;
-}
 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
 .edu-card:hover {
   transform: translateY(-5px);
 }
@@ -451,9 +455,9 @@ img {
     line-height: 1.7;
   }
 
-  .profile {
-    width: 140px;
-    height: 140px;
+.profile {
+  width: 220px;
+  height: 220px;
   }
 
   .section h2 {
