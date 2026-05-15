@@ -419,8 +419,8 @@ img {
   /* EDUCATION TETAP 2 KOLOM */
 
   .education {
-    grid-template-columns: repeat(2, 1fr);
-  }
+  grid-template-columns: 1fr;
+}
 
   /* SKILLS TETAP SEPERTI DESKTOP */
 
